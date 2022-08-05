@@ -8,5 +8,4 @@ Don't forget to subscribe to the channel to see more videos like this. [Cristian
 
 ![](preview.png)
 
-# furniture-main-react-tailwindcss
-# furniture-starter-react-tailwind
+# furniture-starter-react-tailwindcss
