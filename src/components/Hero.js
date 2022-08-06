@@ -3,6 +3,9 @@ import React from "react";
 //import data
 import { hero } from "../data";
 
+//import components
+import Stats from "../components/Stats";
+
 const Hero = () => {
 	//destructure hero
 	const { title, subtitle, buttonText } = hero;
@@ -18,11 +21,13 @@ const Hero = () => {
 					{subtitle}
 				</h2>
 				{/* cta button */}
-				<button className="bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)] px-[35px] py-[9px] text-xl rounded-md backdrop-blur-md transition lg:px-[80px] lg:py-[16px] lg:mb-[194px]">
+				<button className="bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)] px-[35px] py-[9px] mb-[160px] text-xl rounded-md backdrop-blur-md transition lg:px-[80px] lg:py-[16px] lg:mb-[194px]">
 					{buttonText}
 				</button>
 				{/* stats */}
-				<div>stats</div>
+				<div>
+					<Stats />
+				</div>
 			</div>
 		</section>
 	);
