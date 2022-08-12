@@ -20,7 +20,7 @@ const Newsletter = () => {
 							type="text"
 							placeholder={placeholder}
 						/>
-						<button className="bg-primary h-[60px] hover:bg-slate-900 px-7 rounded-lg font-semibold">
+						<button className="bg-primary h-[60px] hover:bg-slate-900 px-7 rounded-lg font-semibold text-xl transition">
 							{buttonText}
 						</button>
 					</div>
